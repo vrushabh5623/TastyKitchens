@@ -1,0 +1,69 @@
+.banner-container{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 344px;
+  background-color: #333333;
+  box-sizing: border-box;
+  padding-left: 165px;
+  padding-right: 165px;
+  padding-top: 30px;
+}
+.banner-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.banner-logo{
+  width: 445px;
+  height:280px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+.banner-head{
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.cuisine-para{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.banner-star-icon{
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+}
+.banner-ratint-head{
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 16px;
+}
+.rating-para{
+  color: #E2E8F0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Roboto';
+}
+.verticle-line{
+  height: 40px;
+  width: 2px;
+  background-color: #ffffff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.banner-rating-div{
+  display:flex;
+  flex-direction: row;
+  margin-top: 10px;
+}

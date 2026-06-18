@@ -1,0 +1,131 @@
+.head{
+  color: rgb(12, 128, 230);
+  background-color: aliceblue;
+}
+.login-main-container{
+  display: flex;
+  flex-direction: row;
+}
+.login-content-div{
+  background-color: #ffffff;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-image-div{
+  background-image: url("https://i.postimg.cc/3RMFPmvB/Rectangle-1456.png");
+  height: 100vh;
+  width: 50%;
+  background-size: cover;
+}
+.testy-logo{
+  width: 53px;
+  height: 43px;
+}
+.form-container-div{
+  width: 456px;
+  height: 523px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.1);
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tasty-head{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+  color: #F7931E;
+  font-style: italic;
+}
+.login-head{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 32px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.logo-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.userlabel{
+  font-family: 'DM sans', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1%;
+  font-weight: 700;
+  color: #7E858E;
+  margin-bottom: 10px;
+}
+.userinput{
+  width: 360px;
+  height: 40px;
+  background-color: #E2E8F0;
+  color: #171F46;
+  font-family: 'dm sans',sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+.passlabel{
+  font-family: 'DM sans', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1%;
+  font-weight: 700;
+  color: #7E858E;
+  margin-bottom: 10px;
+}
+.passinput{
+  width: 360px;
+  height: 40px;
+  background-color: #E2E8F0;
+  color: #171F46;
+  font-family: 'dm sans',sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  /* margin-bottom: 30px; */
+}
+
+.submitbtn{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  width: 380px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #F7931E;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  margin-top: 30px;
+}
+.error-div{
+  height: 20px;
+  margin-top: 10px;
+}
+.error-para{
+  color: #EF4444;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'dm sans',sans-serif;
+}

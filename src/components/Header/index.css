@@ -1,0 +1,65 @@
+.Header-bg{
+  padding-left: 165px;
+  padding-right: 165px;
+  background-color: #F8FAFC;
+  height: 96px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.link{
+  color: #334155;
+}
+.header-logo{
+  width: 53px;
+  height: 43px;
+}
+.tasty-header-head{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+  color: #F7931E;
+  font-style: italic;
+  font-weight: 700;
+}
+.logo-head-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.unlist{
+  /* text-decoration: none; */
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo-home-cart{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-head{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #F7931E;
+  margin-right: 20px;
+}
+.logout-btn{
+  width: 73px;
+  height: 32px;
+  padding: 8px 16px;
+  background-color: #F7931E;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}

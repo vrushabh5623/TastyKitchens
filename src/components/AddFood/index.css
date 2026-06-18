@@ -1,0 +1,9 @@
+.food-main-container{
+  background-color: #ffffff;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.add-datails-container{
+  padding-left: 165px;
+  padding-right: 165px;
+}
