@@ -8,8 +8,7 @@ import './index.css'
 class Popular extends Component{
 
   state = {
-    lowest: 'Lowest',
-    highest: "Highest",
+    filter:'Lowest',
     restaurantsList:[],
   }
 
@@ -17,9 +16,16 @@ class Popular extends Component{
     this.getPopularData()
   }
 
+  onChangeOption = (event) =>{
+    this.setState({
+      filter: event.target.value
+    },this.getPopularData)
+  }
+
   getPopularData = async() =>{
+    const {filter} = this.state
     const jwtToken = Cookies.get('jwt_token')
-    const url = "https://apis.ccbp.in/restaurants-list?search=hotel&offset=0&limit=9&sort_by_rating=Lowest'"
+    const url =  `https://apis.ccbp.in/restaurants-list?search=hotel&offset=0&limit=9&sort_by_rating=${filter}`
     const options = {
       headers:{
         Authorization: `Bearer ${jwtToken}`
@@ -66,9 +72,9 @@ class Popular extends Component{
           <div className="sort-div">
               <><MdOutlineSort className="filter-icon"/></>
             
-            <select className="sort-option">
-              <option >Sort by Lowest</option>
-              <option >Sort by Highest</option>
+            <select className="sort-option" onChange={this.onChangeOption}>
+              <option value='Lowest'>Sort by Lowest</option>
+              <option value='Highest'>Sort by Highest</option>
             </select>
           </div>
         </div>
