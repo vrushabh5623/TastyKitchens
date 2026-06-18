@@ -2,6 +2,7 @@ import { Component } from "react";
 import { CiSquarePlus } from "react-icons/ci";
 import { CiSquareMinus } from "react-icons/ci";
 import { MdCurrencyRupee } from "react-icons/md";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import Footer from '../Footer'
 import Header from '../Header'
 import './index.css'
@@ -9,6 +10,11 @@ import './index.css'
 class FoodCart extends Component{
   state = {
     count: 1
+  }
+
+  onPlaceOrder = () =>{
+    const {history} = this.props
+    history.replace('/payment')
   }
 
   onSubstarct = () =>{
@@ -74,7 +80,7 @@ class FoodCart extends Component{
             <p className="total-price"><MdCurrencyRupee /> 8000.00</p>
           </div>
           <div className="place-div">
-            <button className="place-order-btn">Place Order</button>
+            <button className="place-order-btn" onClick={this.onPlaceOrder}>Place Order</button>
           </div>
         </div>
         <Footer/>
