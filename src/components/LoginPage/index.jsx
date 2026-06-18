@@ -111,7 +111,6 @@ class LoginPage extends Component{
             </form>
         </div>
         <div className="login-image-div">
-          <h2>f</h2>
         </div>
       </div>
     )
