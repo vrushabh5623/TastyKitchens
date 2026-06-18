@@ -6,7 +6,7 @@
   padding-top: 64px;
   font-family: 'DM sans',sans-serif;
 }
-@media screen and (max-width:360px){
+@media screen and (min-width: 360px) and (max-width: 768px){
   .popular-head{
     padding-top: 40px;
   }
@@ -45,7 +45,7 @@
   align-items: center;
   justify-content: space-between;
 }
-@media screen and (max-width:360px) {
+@media screen and (min-width: 360px) and (max-width: 768px) {
   .select-para-icon{
     display: flex;
     flex-direction: column;

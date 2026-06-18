@@ -18,7 +18,7 @@
   flex-direction: row;
   align-items: center;
 }
-@media screen and (max-width:360px){
+@media screen and (min-width: 360px) and (max-width: 768px){
   .rupee-para{
     font-weight: 500;
     font-size: 14px;
@@ -34,7 +34,7 @@
   letter-spacing: 0.2px;
   font-family: 'DM sans',sans-serif;
 }
-@media screen and (max-width:360px) {
+@media screen and (min-width: 360px) and (max-width: 768px) {
   .details-head{
     font-weight: 700;
     font-size: 16px;
@@ -47,7 +47,7 @@
   width: 23px;
   color: #FFCC00;
 }
-@media screen and (max-width:360px){
+@media screen and (min-width: 360px) and (max-width: 768px){
   .star-icon2{
     height: 12px;
     width: 12px;
@@ -62,7 +62,7 @@
   font-family: 'DM sans',sans-serif;
   color: #334155;
 }
-@media screen and (max-width:360px){
+@media screen and (min-width: 360px) and (max-width: 768px){
   .rating-head{
     font-weight: 700;
     font-size: 14px;
@@ -83,7 +83,7 @@
   margin-top: 8px;
 
 }
-@media screen and (max-width:360px){
+@media screen and (min-width: 360px) and (max-width: 768px){
   .details-btn{
     padding: 5px 11px;
   }
@@ -100,7 +100,7 @@
   width: 550px;
   margin-bottom: 30px;
 }
-@media screen and (max-width:360px) {
+@media screen and (min-width: 360px) and (max-width: 768px) {
   .add-details-logo{
     width: 160px;
     height: 100px;

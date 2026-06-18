@@ -14,9 +14,9 @@
   margin-right: 165px;
   margin-bottom: 30px;
 }
-@media screen and (max-width:361px) {
+@media screen and (min-width: 384px) and (max-width: 768px) {
   .slider-container{
-    width: 360px;
+    width: 384px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 30px;
@@ -31,7 +31,7 @@
   border-radius: 8px;
   object-fit: cover;
 }
-@media screen and (max-width:361px) {
+@media screen and (min-width: 3384px) and (max-width: 768px) {
   .home-banner{
     height: 180px;
     position: end;
@@ -41,7 +41,7 @@
   margin-right: 165px;
   margin-left: 165px;
 }
-@media screen and (max-width:361px) {
+@media screen and (min-width: 384px) and (max-width: 768px) {
   .popular-cotainer{
     margin-left: 20px;
     margin-right: 20px;
