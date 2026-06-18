@@ -1,0 +1,42 @@
+.payment-head{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: 'DM sans', sans-serif;
+  color: #1E293B;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.payment-para{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'DM sans', sans-serif;
+  color: #64748B;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.payment-btn{
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #F7931E;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+.payment-icon{
+  color: #22C55E;
+  height: 64px;
+  width: 64px;
+}
+.payment-container{
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -7,3 +7,9 @@
   padding-left: 165px;
   padding-right: 165px;
 }
+@media screen and (max-width:360px) {
+  .add-datails-container{
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+}

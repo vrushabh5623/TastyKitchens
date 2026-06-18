@@ -15,6 +15,13 @@
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width:361px) {
+  .login-content-div{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+}
 .login-image-div{
   background-image: url("https://i.postimg.cc/3RMFPmvB/Rectangle-1456.png");
   height: 100vh;
@@ -36,6 +43,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width:361px){
+  .form-container-div{
+    width: 80%;
+    background-color: none;
+    box-shadow: none;
+    box-sizing: border-box;
+  }
 }
 .tasty-head{
   font-family: 'DM Sans', sans-serif;
@@ -59,6 +74,18 @@
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width:361px){
+  .login-main-container{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .login-image-div{
+    display: none;
+
+  }
+
+}
 .userlabel{
   font-family: 'DM sans', sans-serif;
   font-size: 12px;
@@ -67,6 +94,11 @@
   font-weight: 700;
   color: #7E858E;
   margin-bottom: 10px;
+}
+@media screen and (max-width:361px) {
+  .userlabel{
+    color: #475569;
+  }
 }
 .userinput{
   width: 360px;
@@ -82,6 +114,12 @@
   padding-left: 15px;
   margin-bottom: 30px;
 }
+@media screen and (max-width:361px) {
+  .userinput{
+    width: 312px;
+  }
+  
+}
 .passlabel{
   font-family: 'DM sans', sans-serif;
   font-size: 12px;
@@ -90,6 +128,11 @@
   font-weight: 700;
   color: #7E858E;
   margin-bottom: 10px;
+}
+@media screen and (max-width:361px){
+  .passlabel{
+    color: #475569;
+  }
 }
 .passinput{
   width: 360px;
@@ -105,6 +148,11 @@
   padding-left: 15px;
   /* margin-bottom: 30px; */
 }
+@media screen and (max-width:361px){
+  .passinput{
+    width: 312px;
+  }
+}
 
 .submitbtn{
   font-weight: 700;
@@ -118,6 +166,11 @@
   border: none;
   outline: none;
   margin-top: 30px;
+}
+@media screen and (max-width:361px) {
+  .submitbtn{
+    width: 330px;
+  }
 }
 .error-div{
   height: 20px;

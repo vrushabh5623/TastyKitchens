@@ -17,6 +17,7 @@ import './index.css'
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 3000,
+  arrows: false
 }
 
 class Home extends Component{

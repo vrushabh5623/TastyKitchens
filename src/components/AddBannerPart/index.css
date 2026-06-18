@@ -9,6 +9,15 @@
   padding-right: 165px;
   padding-top: 30px;
 }
+@media screen and (max-width:360px) {
+  .banner-container{
+    padding-left: 0px;
+    height: 221px;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin-right: 0px;
+  }
+}
 .banner-div{
   display: flex;
   flex-direction: row;
@@ -21,12 +30,29 @@
   border-radius: 8px;
   margin-right: 20px;
 }
+@media screen and (max-width:360px) {
+  .banner-logo{
+    width: 221px;
+    height:221px;
+    object-fit: cover;
+    margin-right: 0px;
+    transform: translateX(-10%);
+    border-top-right-radius: 100px;
+  }
+}
 .banner-head{
   font-weight: 500;
   font-size: 36px;
   line-height: 48px;
   font-family: 'Roboto';
   color: #ffffff;
+}
+@media screen and (max-width:360px) {
+  .banner-head{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 .cuisine-para{
   font-weight: 400;
@@ -37,16 +63,36 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+@media screen and (max-width:360px){
+  .cuisine-para{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
 .banner-star-icon{
   width: 20px;
   height: 20px;
   color: #ffffff;
+}
+@media screen and (max-width:360px) {
+  .banner-star-icon{
+    width: 12px;
+    height: 12px;
+  }
 }
 .banner-ratint-head{
   color: #ffffff;
   font-weight: 700;
   font-size: 25px;
   line-height: 16px;
+}
+@media screen and (max-width:360px) {
+  .banner-ratint-head{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+  }
 }
 .rating-para{
   color: #E2E8F0;
@@ -55,6 +101,14 @@
   line-height: 20px;
   font-family: 'Roboto';
 }
+@media screen and (max-width:360px) {
+  .rating-para{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
 .verticle-line{
   height: 40px;
   width: 2px;

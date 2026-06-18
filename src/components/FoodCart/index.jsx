@@ -41,9 +41,10 @@ class FoodCart extends Component{
           <div className="align-div">
             <div className="image-head">
               <img src="https://www.franchisezing.com/franchise/wp-content/uploads/2016/02/chole-bhature.jpg" alt="" className="add-details-logo2"/>
-              <h1 className="details-head">Prawn Spcial</h1>
+              <h1 className="details-head-cart">Prawn Spcial</h1>
             </div>
             <div className="add-sub">
+              <h1 className="details-head-cart2">Prawn Spcial</h1>
               <button className="minut-btn" onClick={this.onSubstarct}><CiSquareMinus className="minus-icon"/></button>
               <p className="count-item">{count}</p>
               <button className="plus-btn" onClick={this.onAddition}><CiSquarePlus className="minus-icon"/></button>

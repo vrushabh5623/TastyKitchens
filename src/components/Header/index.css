@@ -9,12 +9,25 @@
   flex-direction: column;
   justify-content: center;
 }
+@media screen and (max-width:361px){
+  .Header-bg{
+    width: 360px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 .link{
   color: #334155;
 }
 .header-logo{
   width: 53px;
   height: 43px;
+}
+@media screen and (max-width:360px){
+  .header-logo{
+    width: 40px;
+    height: 30px;
+  }
 }
 .tasty-header-head{
   font-family: 'DM Sans', sans-serif;
@@ -24,6 +37,11 @@
   color: #F7931E;
   font-style: italic;
   font-weight: 700;
+}
+@media screen and (max-width:360px) {
+  .tasty-header-head{
+    font-size: 15px;
+  }
 }
 .logo-head-div{
   display: flex;

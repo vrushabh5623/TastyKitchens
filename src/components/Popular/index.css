@@ -6,6 +6,11 @@
   padding-top: 64px;
   font-family: 'DM sans',sans-serif;
 }
+@media screen and (max-width:360px){
+  .popular-head{
+    padding-top: 40px;
+  }
+}
 .select-para{
   font-weight: 500;
   font-size: 16px;
@@ -39,6 +44,13 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+@media screen and (max-width:360px) {
+  .select-para-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 .hr-tag{
   /* color: #CBD2D9; */

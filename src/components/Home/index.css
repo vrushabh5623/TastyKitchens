@@ -14,6 +14,16 @@
   margin-right: 165px;
   margin-bottom: 30px;
 }
+@media screen and (max-width:361px) {
+  .slider-container{
+    width: 360px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    object-fit: contain;
+    object-position: center;
+  }
+}
 
 .home-banner {
   width: 100%;
@@ -21,7 +31,19 @@
   border-radius: 8px;
   object-fit: cover;
 }
+@media screen and (max-width:361px) {
+  .home-banner{
+    height: 180px;
+    position: end;
+  }
+}
 .popular-cotainer{
   margin-right: 165px;
   margin-left: 165px;
+}
+@media screen and (max-width:361px) {
+  .popular-cotainer{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
