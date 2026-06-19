@@ -20,7 +20,6 @@ class Header extends Component{
         <div className='logo-head-div'>
           <img src='https://i.postimg.cc/FzwrZr6w/Frame-274.png' alt='header-logo' className='header-logo'/>
           <h1 className='tasty-header-head'>Tasty Kitchen</h1>
-          <h1 className='tasty-header-head'>Tasty Kitchen</h1>
         </div>
         </Link>
         <ul className='unlist'>
